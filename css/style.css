@@ -244,7 +244,14 @@ h2{
     object-fit: cover;
     object-position: top;
 }
-
+@media screen and (max-width: 1621px) {
+    .photo-container{
+        --size: 385px;
+    }
+    .photo{
+        --size: 385px;
+    }
+}
 
 .footer-wrap::before{
     content: "";
